@@ -13,6 +13,7 @@
             <string>OpenSans-Light</string>
             <string>OpenSans-Light</string>
             <string>OpenSans-Light</string>
+            <string>OpenSans-Light</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -198,7 +199,7 @@
         <!--Info-->
         <scene sceneID="Ajh-FG-BR3">
             <objects>
-                <viewController id="u8P-a1-6Yo" sceneMemberID="viewController">
+                <viewController id="u8P-a1-6Yo" customClass="ViewProfile" customModule="homework1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="szT-Ub-yFq"/>
                         <viewControllerLayoutGuide type="bottom" id="Rvg-3v-pQl"/>
@@ -220,6 +221,19 @@
                                 <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjD-wR-ta4">
+                                <rect key="frame" x="179" y="599" width="56" height="53"/>
+                                <state key="normal" title="Button" image="instagram-icon-vector-logo"/>
+                                <connections>
+                                    <action selector="cmdInsta:" destination="u8P-a1-6Yo" eventType="touchUpInside" id="Hma-St-kgt"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FOLLOW ME ON" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SDj-Y3-AF6">
+                                <rect key="frame" x="122" y="550" width="170" height="30"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -227,7 +241,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pcf-oR-Mo8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1841" y="-134"/>
+            <point key="canvasLocation" x="1801" y="18"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="sDT-Q3-NoA">
@@ -253,5 +267,6 @@
         <image name="Dog" width="2289" height="2289"/>
         <image name="General_Assembly_logo_color" width="571" height="379"/>
         <image name="Tom" width="1731" height="1731"/>
+        <image name="instagram-icon-vector-logo" width="800" height="800"/>
     </resources>
 </document>

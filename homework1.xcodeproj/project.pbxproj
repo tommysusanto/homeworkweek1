@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E32CAEC1CB69E18004DFE9E /* ViewProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E32CAEB1CB69E18004DFE9E /* ViewProfile.swift */; };
 		3E94C91E1CB66169001BB359 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E94C9141CB66169001BB359 /* OpenSans-ExtraBold.ttf */; };
 		3E94C91F1CB66169001BB359 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E94C9151CB66169001BB359 /* OpenSans-ExtraBoldItalic.ttf */; };
 		3E94C9201CB66169001BB359 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E94C9161CB66169001BB359 /* OpenSans-Bold.ttf */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E32CAEB1CB69E18004DFE9E /* ViewProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewProfile.swift; sourceTree = "<group>"; };
 		3E94C9141CB66169001BB359 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBold.ttf"; path = "../../../../../Library/Fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		3E94C9151CB66169001BB359 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBoldItalic.ttf"; path = "../../../../../Library/Fonts/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		3E94C9161CB66169001BB359 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "../../../../../Library/Fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				3EE145951CB52C1900ECE413 /* AppDelegate.swift */,
 				3EE145971CB52C1900ECE413 /* ViewController.swift */,
 				3EE145991CB52C1900ECE413 /* Main.storyboard */,
+				3E32CAEB1CB69E18004DFE9E /* ViewProfile.swift */,
 				3EE1459C1CB52C1900ECE413 /* Assets.xcassets */,
 				3EE1459E1CB52C1900ECE413 /* LaunchScreen.storyboard */,
 				3EE145A11CB52C1900ECE413 /* Info.plist */,
@@ -318,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EE145981CB52C1900ECE413 /* ViewController.swift in Sources */,
+				3E32CAEC1CB69E18004DFE9E /* ViewProfile.swift in Sources */,
 				3E94C92B1CB68396001BB359 /* ViewAdvance.swift in Sources */,
 				3EE145961CB52C1900ECE413 /* AppDelegate.swift in Sources */,
 				3EE145C61CB53FFD00ECE413 /* ViewTwo.swift in Sources */,
