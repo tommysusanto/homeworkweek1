@@ -11,12 +11,13 @@ import UIKit
 
 class ViewTwo: UIViewController {
     
-    @IBOutlet weak var lblWelcome: UILabel!
-    var lblText = String()
+    
+//    @IBOutlet weak var lblWelcome: UILabel!
+//    var lblText = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        lblWelcome.text = lblText
+//        lblWelcome.text = lblText
     }
     
     

@@ -17,6 +17,7 @@ class ViewAdvance: UIViewController {
     
     override func viewDidLoad() {
         
+        //This alert box is displayed once user reaches this page
         let alert = UIAlertController(title: "Congratulations", message: "You've reached the Advanced Page", preferredStyle: UIAlertControllerStyle.Alert)
         alert.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.Default, handler: nil))
         self.presentViewController(alert, animated: true, completion: nil)
